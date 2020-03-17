@@ -11,10 +11,11 @@ function takeANumber(katzDeliLine, name) {
 function nowServing(katzDeliLine) {
   console.log("***", katzDeliLine.length)
   if (katzDeliLine.length === 0) {
-    console.log("There is nobody waiting to be served!")
+    console.log('There is nobody waiting to be served!')
   } else {
     katzDeliLine.shift
   }
+  console.log(katzDeliLine)
   return katzDeliLine
 }
 
