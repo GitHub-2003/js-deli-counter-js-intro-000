@@ -12,10 +12,9 @@ function nowServing(katzDeliLine) {
   if (katzDeliLine.length === 0) {
     console.log("There is nobody waiting to be served!")
   } else {
-    var name = katzDeliLine[0]
     katzDeliLine.shift
   }
-  return name
+  return katzDeliLine
 }
 
 function currentLine(katzDeliLine) {
