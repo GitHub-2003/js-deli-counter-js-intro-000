@@ -9,6 +9,7 @@ function takeANumber(katzDeliLine, name) {
 // return the first person in line and then remove that individual from the line.
 // If there is nobody in line, display "... nobody waiting..." message
 function nowServing(katzDeliLine) {
+  console.log("***", katzDeliLine.length)
   if (katzDeliLine.length === 0) {
     console.log("There is nobody waiting to be served!")
   } else {
